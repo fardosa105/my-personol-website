@@ -46,10 +46,16 @@ section {
 
 #services {
     background: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
 }
 
 .service {
     margin-bottom: 20px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 #testimonials blockquote {
